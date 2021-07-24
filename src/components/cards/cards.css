@@ -1,0 +1,18 @@
+.cards{
+    border: 1px solid gray;
+    color: white;
+    cursor: pointer;
+
+    /* background: #ecf0f3; */
+    border-radius: 10px;
+    box-shadow: -3px -3px 7px #5D26C1,
+    3px 3px 5px #302b63;
+
+    transition: .5s ease-out;
+}
+
+.cards:hover{
+    transform: scale(1.05);
+    box-shadow: -3px -3px 7px #302b63,
+    3px 3px 5px #5D26C1;
+}
